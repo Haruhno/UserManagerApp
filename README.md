@@ -15,25 +15,6 @@ Elle met en avant une architecture claire avec séparation des responsabilités 
 
 ## Architecture du projet
 
-UserManagerApp/
-├── src/main/
-│   ├── model/
-│   │   └── Utilisateur.java          # Classe métier Utilisateur
-│   ├── dao/
-│   │   └── UtilisateurDAO.java       # Couche d'accès aux données
-│   ├── service/
-│   │   └── ServiceUtilisateur.java   # Couche métier et validation
-│   └── ui/
-│       ├── MainFrame.java            # Fenêtre principale
-│       ├── UserFormDialog.java       # Dialogue formulaire
-│       └── components/
-│           └── ModernButton.java     # Boutons personnalisés
-├── src/test/
-│   ├── UtilisateurTest.java          # Tests unitaires modèle
-│   └── ServiceUtilisateurTest.java   # Tests unitaires service
-└── README.md
-
-
 - **model** : Classe `Utilisateur` avec ses attributs et méthodes  
 - **dao** : Gestion de la persistance des données en mémoire  
 - **service** : Logique métier et validation des données  
